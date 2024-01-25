@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Main {
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px 20px rgba(0,0,0,.8);
+  backdrop-filter:  blur(50px) ;
+  font-size: 22px;
+  border: 2px solid rgba(255,255,255,.8);
+  width: 500px;
+}
+
+.Main .Header {
+  color: #ffff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Main .input {
+  text-align: center;
+  padding: 10px;
+}
+
+.input .btn {
+  border-radius: 10px;
+  height: 35px;
+  margin: 2px;
+  font-size: 18px;
+  padding-left: 5px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,.8);
+  color: #fff;
+}
+
+.btn::placeholder {
+  color: #fff;
+}
+
+.Main .End {
+  text-align: center;
+}
+
+.End .Button {
+  color: #fff;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 2rem;
+  width: 100px;
+  border: 2px solid rgba(255,255,255,.8);
+  background: transparent;
+}
+
+.Button:hover {
+  background: #fff;
+  color: #000 ;
+}
